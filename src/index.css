@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0e1a;
+  --surface: #11162310;
+  --surface-1: #131927;
+  --surface-2: #1a2134;
+  --border: #232b3d;
+  --border-soft: #1a2031;
+  --text-1: #f1f3f9;
+  --text-2: #8b93a7;
+  --text-3: #565f75;
+  --indigo: #6366f1;
+  --indigo-soft: #6366f122;
+  --emerald: #10b981;
+  --emerald-soft: #10b98122;
+  --amber: #f59e0b;
+  --amber-soft: #f59e0b22;
+  --rose: #f43f5e;
+  --rose-soft: #f43f5e22;
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text-1);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(99,102,241,0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(16,185,129,0.06), transparent);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, .display { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #2d3650; }
+
+button { font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes scaleIn { from { opacity:0; transform:scale(0.96); } to { opacity:1; transform:scale(1); } }
+@keyframes spin { to { transform: rotate(360deg); } }
