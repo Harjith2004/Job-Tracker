@@ -20,20 +20,6 @@
 - Plus Jakarta Sans + Inter (typography)
 - localStorage (no backend needed)
 
-## ⚙️ Installation
-```bash
-git clone https://github.com/Harjith2004/jobtrack.git
-cd jobtrack
-npm install
-npm start
-```
-
-## 🚀 Deploy to GitHub Pages
-```bash
-npm install gh-pages --save-dev
-npm run deploy
-```
-
 ## 👨‍💻 Author
 **Harjith K**
 - GitHub: [@Harjith2004](https://github.com/Harjith2004)
